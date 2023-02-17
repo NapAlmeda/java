@@ -1,0 +1,11 @@
+ Uncheck all
+        </button>
+      </caption>
+      <thead>
+        <tr>
+          <td />
+          {columns.map(function(column) {
+            return <th scope="col" key={column}>{column}</th>;
+          })}
+        </tr>
+      </thead>
